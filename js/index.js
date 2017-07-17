@@ -44,7 +44,7 @@ oStartBtn.addEventListener('click',function(){
 	},time);
 	
 	//添加打地鼠的方法
-	document.querySelector(".mice").addEventListener('touchstart',function(event){
+	document.querySelector(".mice").addEventListener('touchend',function(event){
 		var isClick = false;
 		if(event.path[1].id == ("ds" + randNum) && !isClick){
 			score += 100;
