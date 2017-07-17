@@ -20,7 +20,7 @@ body,html{
 	flex-direction: column;
 }
 #page #pageTop{
-	height: 25%;
+	height: 30%;
 	width: 100%;
 	padding-top: 20px;
 	padding-left: 10px;
@@ -65,34 +65,15 @@ body,html{
 	width: 100%;
 }
 
-#pageTop #chance{
-	width: 60%;
-	text-align: center;
-	font-size: 17px;
-	position: absolute;
-	left: 50%;
-	bottom: 0;
-	top: 100%;
-	margin-left: -30%;
-}
-
-#pageTop #chance span{
-	padding: 10px;
-	color: orange;
-	font-size: 30px;
-	font-weight: 900;
-	text-shadow: 3px 3px 4px gold;
-}
-
 #mice{
 	margin-top: 0px;
-	height: 75%;
-	margin-top: 5%;
+	height: 70%;
 }
 
 #mice div{
 	float: left;
 	width: 33.3%;
+	height:25%;
 }
 
 #mice div img{
